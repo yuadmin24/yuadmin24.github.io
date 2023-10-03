@@ -652,11 +652,9 @@ sidebar:
         visitcounter:
           enable: true
           siteuv:
-            enable: true
             text: '本站访客数：'
             unit: '人'
           sitepv:
-            enable: true
             text: '本站总访问量：'
             unit: '次'
         lastupd:
@@ -719,7 +717,7 @@ tag_plugins:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [aplayer, social, license, info, copyright]
-  layout: [aplayer, social, license, info, copyright]
+  layout: [aplayer, social, license, info, analytics, copyright]
   social:
     - icon: #fa-solid fa-rss
       url:
@@ -733,9 +731,9 @@ site_footer:
   source: https://github.com/volantis-x/volantis-docs/
   # analytics using busuanzi
   analytics: 
-    busuanzi: https://npm.elemecdn.com/penndu@1.0.0/bsz.js
-  # <span>本站总访问量为 <span id='busuanzi_value_site_pv'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
-  # <span>访客数为 <span id='busuanzi_value_site_uv'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
+  #  <span>本站总访问量为 <span id='busuanzi_value_site_pv'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span>
+  #  <span>访客数为 <span id='busuanzi_value_site_uv'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span>
+    busuanzi: https://npm.elemecdn.com/penndu@1.0.0/bsz.js # 修改这里即可
     
   # site copyright
   copyright: '[Copyright © since 2022](/)'
